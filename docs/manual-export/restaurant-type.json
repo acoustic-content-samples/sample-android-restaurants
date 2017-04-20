@@ -1,0 +1,523 @@
+{
+  "name": "Restaurant",
+  "classification": "content-type",
+  "description": "Use this content type to create restaurants as content items.",
+  "status": "ready",
+  "tags": [],
+  "schema": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+    "properties": {
+      "summary": {
+        "title": "Summary",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "text"
+            ],
+            "default": "text"
+          },
+          "value": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "elementType",
+          "value"
+        ],
+        "additionalProperties": false
+      },
+      "address": {
+        "title": "Address",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "text"
+            ],
+            "default": "text"
+          },
+          "value": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "elementType",
+          "value"
+        ],
+        "additionalProperties": false
+      },
+      "phone": {
+        "title": "Phone",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "text"
+            ],
+            "default": "text"
+          },
+          "value": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "elementType",
+          "value"
+        ],
+        "additionalProperties": false
+      },
+      "cuisine": {
+        "title": "Cuisine",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "category"
+            ],
+            "default": "category"
+          },
+          "categoryIds": {
+            "title": "categories",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            },
+            "restrictedParents": [
+              "[ID_OF_CUISINE_TAXONOMY]"
+            ]
+          }
+        },
+        "required": [
+          "elementType",
+          "categoryIds"
+        ],
+        "additionalProperties": false
+      },
+      "website": {
+        "title": "Website",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "link"
+            ],
+            "default": "link"
+          },
+          "linkURL": {
+            "title": "Link URL",
+            "type": "string",
+            "pattern": "^[^ \"<>|]+$"
+          },
+          "linkText": {
+            "title": "Link Text",
+            "type": "string",
+            "maxLength": 100
+          },
+          "linkTitle": {
+            "title": "Link Title",
+            "type": "string",
+            "maxLength": 100
+          }
+        },
+        "required": [
+          "elementType"
+        ],
+        "additionalProperties": false
+      },
+      "photo": {
+        "title": "Photo",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "image"
+            ],
+            "default": "image"
+          },
+          "asset": {
+            "title": "Asset Resource",
+            "type": "object",
+            "properties": {
+              "id": {
+                "title": "Asset Id",
+                "type": "string"
+              },
+              "acceptType": [
+                "jpg",
+                "jpeg",
+                "png",
+                "gif"
+              ]
+            }
+          },
+          "imageProfileId": "[ID_OF_RESTAURANT_IMAGE_PROFILE]"
+        },
+        "required": [
+          "elementType"
+        ],
+        "additionalProperties": false,
+        "dependencies": {
+          "asset": [
+            "renditions"
+          ],
+          "renditions": [
+            "asset"
+          ]
+        }
+      },
+      "openingHours1": {
+        "title": "SUN Opening Hours",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "text"
+            ],
+            "default": "text"
+          },
+          "value": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "elementType"
+        ],
+        "additionalProperties": false
+      },
+      "openingHours2": {
+        "title": "MON Opening Hours",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "text"
+            ],
+            "default": "text"
+          },
+          "value": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "elementType"
+        ],
+        "additionalProperties": false
+      },
+      "openingHours3": {
+        "title": "TUE Opening Hours",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "text"
+            ],
+            "default": "text"
+          },
+          "value": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "elementType"
+        ],
+        "additionalProperties": false
+      },
+      "openingHours4": {
+        "title": "WED Opening Hours",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "text"
+            ],
+            "default": "text"
+          },
+          "value": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "elementType"
+        ],
+        "additionalProperties": false
+      },
+      "openingHours5": {
+        "title": "THU Opening Hours",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "text"
+            ],
+            "default": "text"
+          },
+          "value": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "elementType"
+        ],
+        "additionalProperties": false
+      },
+      "openingHours6": {
+        "title": "FRI Opening Hours",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "text"
+            ],
+            "default": "text"
+          },
+          "value": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "elementType"
+        ],
+        "additionalProperties": false
+      },
+      "openingHours7": {
+        "title": "SAT Opening Hours",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "text"
+            ],
+            "default": "text"
+          },
+          "value": {
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "elementType"
+        ],
+        "additionalProperties": false
+      },
+      "rating": {
+        "title": "Rating",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "number"
+            ],
+            "default": "number"
+          },
+          "value": {
+            "title": "Number",
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "elementType",
+          "value"
+        ],
+        "additionalProperties": false
+      },
+      "totalRatings": {
+        "title": "Total Ratings",
+        "type": "object",
+        "properties": {
+          "elementType": {
+            "enum": [
+              "number"
+            ],
+            "default": "number"
+          },
+          "value": {
+            "title": "Number",
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "elementType",
+          "value"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "type": "object",
+    "required": [
+      "summary",
+      "address",
+      "phone",
+      "cuisine",
+      "rating",
+      "totalRatings"
+    ]
+  },
+  "form": [
+    {
+      "key": "summary",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "summary.value",
+          "type": "dx-textarea"
+        }
+      ]
+    },
+    {
+      "key": "address",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "address.value",
+          "type": "dx-text"
+        }
+      ]
+    },
+    {
+      "key": "phone",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "phone.value",
+          "type": "dx-text"
+        }
+      ]
+    },
+    {
+      "key": "cuisine",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "cuisine.categoryIds",
+          "type": "dx-category"
+        }
+      ]
+    },
+    {
+      "key": "website",
+      "type": "dx-modal",
+      "items": [
+        {
+          "key": "linkURL",
+          "type": "text"
+        },
+        {
+          "key": "linkText",
+          "type": "text"
+        },
+        {
+          "key": "linkTitle",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "key": "photo",
+      "type": "dx-image-upload"
+    },
+    {
+      "key": "openingHours1",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "openingHours1.value",
+          "type": "dx-text"
+        }
+      ]
+    },
+    {
+      "key": "openingHours2",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "openingHours2.value",
+          "type": "dx-text"
+        }
+      ]
+    },
+    {
+      "key": "openingHours3",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "openingHours3.value",
+          "type": "dx-text"
+        }
+      ]
+    },
+    {
+      "key": "openingHours4",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "openingHours4.value",
+          "type": "dx-text"
+        }
+      ]
+    },
+    {
+      "key": "openingHours5",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "openingHours5.value",
+          "type": "dx-text"
+        }
+      ]
+    },
+    {
+      "key": "openingHours6",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "openingHours6.value",
+          "type": "dx-text"
+        }
+      ]
+    },
+    {
+      "key": "openingHours7",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "openingHours7.value",
+          "type": "dx-text"
+        }
+      ]
+    },
+    {
+      "key": "rating",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "rating.value",
+          "type": "dx-number"
+        }
+      ]
+    },
+    {
+      "key": "totalRatings",
+      "type": "dx-fieldset",
+      "items": [
+        {
+          "key": "totalRatings.value",
+          "type": "dx-number"
+        }
+      ]
+    }
+  ]
+}

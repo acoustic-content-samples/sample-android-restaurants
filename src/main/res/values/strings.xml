@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">WCH Restaurants</string>
+    <string name="search_results">Search Results</string>
+    <string name="restaurant_image">Restaurant Image</string>
+
+    <string name="unable_to_connect_to_service">Unable to connect to service. Try again?</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="loading">Connecting to service…</string>
+
+    <string name="unable_to_load_cuisines">Unable to load cuisines. Try again?</string>
+    <string name="loading_cuisines">Loading cuisines…</string>
+    <string name="no_cuisine_selected">All cuisines</string>
+
+    <string name="searching_restaurants">Searching restaurants…</string>
+    <string name="loading_restaurant">Loading restaurant…</string>
+
+    <string name="rating_colon">Rating:</string>
+    <string name="rating">%1$s/%2$s (%3$s reviews)</string>
+    <string name="no_ratings">no ratings</string>
+
+    <string name="call">Call</string>
+    <string name="call_number">Call %1$s</string>
+    <string name="launch_maps">Map</string>
+    <string name="view_website">Website</string>
+
+    <string name="sun_time">SUN:</string>
+    <string name="mon_time">MON:</string>
+    <string name="tue_time">TUE:</string>
+    <string name="wed_time">WED:</string>
+    <string name="thu_time">THU:</string>
+    <string name="fri_time">FRI:</string>
+    <string name="sat_time">SAT:</string>
+</resources>

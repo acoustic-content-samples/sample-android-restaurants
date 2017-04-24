@@ -27,7 +27,7 @@ The following are some screenshots of the app:
 ![Alt text](/docs/screenshot-list.png?raw=true "Restaurants listing")
 ![Alt text](/docs/screenshot-restaurant.png?raw=true "Restaurant details")
 
-###Running the sample
+### Running the sample
 
 #### 0. Prerequisites
 

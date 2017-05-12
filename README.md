@@ -1,7 +1,7 @@
 # sample-android-restaurants
 This sample native Android app demonstrates how IBM Watson Content Hub APIs can be used to allow a user to search for restaurants that have been added through the Content Hub user interface.
 
-Note that this sample makes use of the Authoring API. You may use the Delivery Services API for something of this nature.
+Note that this sample uses WCH authoring APIs to search for and retrieve content and images. WCH also has delivery content and search APIs that would typically be used for a retrieval scenario such as this mobile app. The delivery APIs are very similar to the authoring APIs but are simpler to use since they don't require authentication.
 
 This sample covers:
 * Using the categories API to retrieve all categories of a taxonomy

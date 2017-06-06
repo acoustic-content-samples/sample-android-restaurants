@@ -33,9 +33,9 @@ The following are some screenshots of the app:
 
 This project assumes you have basic knowledge of developing Android apps and an IDE ready. The project requires Android 7.1.1 (API 25) so make sure you have that SDK.
 
-#### 1. Download the files
+#### 1. Download the files and copy into project
 
-Download all the files onto your workstation.
+Download all the files onto your workstation. If you are using Android Studio, create a new Android project and then copy the files downloaded into the "app" folder of your project before building.
 
 #### 2. Setup the content model manually or using [wchtools](https://github.com/ibm-wch/wchtools-cli/releases)
 

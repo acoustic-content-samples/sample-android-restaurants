@@ -39,7 +39,7 @@ Download all the files onto your workstation. You should be able to open it as a
 
 #### 2. Setup the content model manually or using [wchtools](https://github.com/ibm-wch/wchtools-cli/releases)
 
-You will need to either manually create the following (steps 2a-2e) or import them using the [/docs/wchtools-export](wchtools-export/) folder. If you are using wchtools, you can go directly to step 3 after importing.
+You will need to either manually create the following (steps 2a-2e) or import them using the [wchtools-export folder](/docs/wchtools-export/). If you are using wchtools, you can go directly to step 3 after importing.
 
 ###### 2a. Cuisine Taxonomy
 

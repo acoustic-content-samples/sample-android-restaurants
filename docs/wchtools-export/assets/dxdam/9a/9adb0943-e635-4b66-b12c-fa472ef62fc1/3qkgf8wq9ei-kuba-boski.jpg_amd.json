@@ -1,0 +1,77 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "3qkgf8wq9ei-kuba-boski.jpg",
+  "path": "/dxdam/9a/9adb0943-e635-4b66-b12c-fa472ef62fc1/3qkgf8wq9ei-kuba-boski.jpg",
+  "digest": "vIqB1FfMscCVHmUTPns8lg==",
+  "assetType": "image",
+  "lastModified": "2017-04-18T07:15:02.182Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:wrapping",
+      "classification:ultramarine color",
+      "classification:lace",
+      "classification:azure color",
+      "classification:gift wrapping",
+      "classification:cellophane",
+      "classification:pillow lace",
+      "classification:envelope",
+      "classification:fabric",
+      "classification:bag",
+      "classification:handkerchief"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:envelope",
+      "classification:bag",
+      "classification:gift wrapping",
+      "classification:wrapping",
+      "classification:handkerchief",
+      "classification:fabric",
+      "classification:pillow lace",
+      "classification:lace",
+      "classification:cellophane",
+      "classification:ultramarine color",
+      "classification:azure color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "3qkgf8wq9ei-kuba-boski.jpg",
+  "creatorId": "c055ead3-19d4-4b8e-b22d-9d0785384b59",
+  "rev": "2-b0da0ad4d15c6c130315e438a6a7d301",
+  "cognitive": {
+    "classifications": [
+      "envelope",
+      "bag",
+      "gift wrapping",
+      "wrapping",
+      "handkerchief",
+      "fabric",
+      "pillow lace",
+      "lace",
+      "cellophane",
+      "ultramarine color",
+      "azure color"
+    ],
+    "faces": [],
+    "status": "complete"
+  },
+  "id": "9adb0943-e635-4b66-b12c-fa472ef62fc1",
+  "resource": "6ad2f34ab3280ee78e26799e358e688b",
+  "fileSize": 63086,
+  "lastModifierId": "c055ead3-19d4-4b8e-b22d-9d0785384b59",
+  "renditions": {
+    "default": {
+      "id": "a5cdb325-ef9c-4a47-8924-f41d2192323d",
+      "source": "/authoring/v1/resources/6ad2f34ab3280ee78e26799e358e688b"
+    }
+  },
+  "metadata": {
+    "width": 750,
+    "height": 500
+  },
+  "classification": "asset",
+  "created": "2017-04-18T07:15:02.182Z"
+}

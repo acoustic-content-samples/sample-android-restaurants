@@ -1,0 +1,16 @@
+{
+  "id": "96ff4a8c19d6a321fa7aa6ee03f0468a",
+  "rev": "3-0991761bca80d1d50460286be60ced17",
+  "name": "Cuisine",
+  "classification": "taxonomy",
+  "namePath": [
+    "Cuisine"
+  ],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/categories/96ff4a8c19d6a321fa7aa6ee03f0468a"
+    }
+  },
+  "created": "2016-12-19T00:04:34.963Z",
+  "lastModified": "2016-12-19T00:05:36.472Z"
+}

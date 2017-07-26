@@ -1,0 +1,78 @@
+{
+  "id": "c2574579-be37-43ef-86dd-033d67c49279",
+  "rev": "8-70c9fbee13d151a71840c1eff49a4295",
+  "name": "Rhodes Phoenix",
+  "description": "",
+  "classification": "content",
+  "typeId": "9310013b-31b0-4705-8bfa-e3c7a70d407b",
+  "lastModified": "2016-12-22T01:12:55.132Z",
+  "lastModifierId": "ec04cc13-317f-40ec-a5d7-9ec3d051e891",
+  "created": "2016-12-19T04:56:01.902Z",
+  "creatorId": "ec04cc13-317f-40ec-a5d7-9ec3d051e891",
+  "tags": [],
+  "status": "draft",
+  "elements": {
+    "openingHours2": {
+      "elementType": "text",
+      "value": "11am–3pm, 5:30–10:30pm"
+    },
+    "summary": {
+      "elementType": "text",
+      "value": "Classic Chinese meals, plus an extensive yum cha menu, in a cavernous, relaxed dining room."
+    },
+    "address": {
+      "elementType": "text",
+      "value": "Rhodes Waterside Shopping Centre, Rhodes NSW 2138"
+    },
+    "rating": {
+      "elementType": "number",
+      "value": 0
+    },
+    "phone": {
+      "elementType": "text",
+      "value": "(02) 9739 6628"
+    },
+    "photo": {
+      "elementType": "image"
+    },
+    "website": {
+      "elementType": "link",
+      "linkURL": "www.phoenixrestaurants.com.au/rhodes-phoenix/about"
+    },
+    "openingHours3": {
+      "elementType": "text",
+      "value": "11am–3pm, 5:30–10:30pm"
+    },
+    "openingHours6": {
+      "elementType": "text",
+      "value": "11am–3pm, 5:30–10:30pm"
+    },
+    "totalRatings": {
+      "elementType": "number",
+      "value": 0
+    },
+    "openingHours4": {
+      "elementType": "text",
+      "value": "11am–3pm, 5:30–10:30pm"
+    },
+    "cuisine": {
+      "elementType": "category",
+      "categoryIds": [
+        "12e105b4affe23889575a52ab8f79787"
+      ]
+    },
+    "openingHours7": {
+      "elementType": "text",
+      "value": "11am–3pm, 5:30–10:30pm"
+    },
+    "openingHours1": {
+      "elementType": "text",
+      "value": "11am–3pm, 5:30–10:30pm"
+    },
+    "openingHours5": {
+      "elementType": "text",
+      "value": "11am–3pm, 5:30–10:30pm"
+    }
+  },
+  "locale": "en"
+}

@@ -1,0 +1,5 @@
+{
+	"name": "Chinese",
+	"classification": "category",
+	"parent": "[ID_OF_CUISINE_TAXONOMY]"
+}

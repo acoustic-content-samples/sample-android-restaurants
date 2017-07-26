@@ -1,0 +1,99 @@
+{
+  "id": "1173e326-b29a-4724-b365-ed322f34313b",
+  "rev": "26-3d96595518b767576a486d6404051bd2",
+  "name": "Jamie's Italian Trattoria",
+  "description": "",
+  "classification": "content",
+  "typeId": "9310013b-31b0-4705-8bfa-e3c7a70d407b",
+  "locale": "en",
+  "lastModified": "2017-04-18T07:14:30.721Z",
+  "lastModifierId": "c055ead3-19d4-4b8e-b22d-9d0785384b59",
+  "created": "2016-12-21T23:33:17.568Z",
+  "creatorId": "ec04cc13-317f-40ec-a5d7-9ec3d051e891",
+  "tags": [],
+  "status": "draft",
+  "elements": {
+    "openingHours6": {
+      "elementType": "text",
+      "value": "7:30–11am, 11:30am–10pm"
+    },
+    "openingHours3": {
+      "elementType": "text",
+      "value": "7:30–11am, 11:30am–9:30pm"
+    },
+    "openingHours2": {
+      "elementType": "text",
+      "value": "7:30–11am, 11:30am–9:30pm"
+    },
+    "openingHours7": {
+      "elementType": "text",
+      "value": "8:30am–10pm"
+    },
+    "phone": {
+      "elementType": "text",
+      "value": "(02) 8624 6800"
+    },
+    "openingHours4": {
+      "elementType": "text",
+      "value": "7:30–11am, 11:30am–9:30pm"
+    },
+    "cuisine": {
+      "elementType": "category",
+      "categoryIds": [
+        "31f2905ea363895436c56fa6acf6bc7d"
+      ]
+    },
+    "summary": {
+      "elementType": "text",
+      "value": "Celebrity chef's relaxed Italian chain, with rustic menu and antipasti bar."
+    },
+    "totalRatings": {
+      "elementType": "number",
+      "value": 2
+    },
+    "photo": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "28e58a8f-b8c4-49aa-b1e6-c2d893eafd9c",
+          "source": "/authoring/v1/resources/0a02bbaffd2f1bcce3895f0f329909c1"
+        },
+        "mobile": {
+          "renditionId": "7abf3387-eb5b-41cb-9cd7-ea5646c957eb",
+          "source": "/authoring/v1/resources/0a02bbaffd2f1bcce3895f0f329909c1?resize=0.5026666666666667xw:0.5026666666666667xh&crop=377:199;0,26"
+        },
+        "thumbnail": {
+          "renditionId": "6f548739-335f-4241-b957-ac0dce08715c",
+          "source": "/authoring/v1/resources/0a02bbaffd2f1bcce3895f0f329909c1?resize=0.2xw:0.2xh&crop=150:90;0,5"
+        }
+      },
+      "asset": {
+        "id": "81aa9ea3-4aeb-4586-9353-bab9456bf5a1",
+        "resourceUri": "/authoring/v1/resources/0a02bbaffd2f1bcce3895f0f329909c1",
+        "fileName": "kk1hlai2lge-nirzar-pangarkar.jpg",
+        "fileSize": 84954,
+        "mediaType": "image/jpeg"
+      }
+    },
+    "address": {
+      "elementType": "text",
+      "value": "Church St, Parramatta NSW 2150"
+    },
+    "openingHours1": {
+      "elementType": "text",
+      "value": "8:30am–9:30pm"
+    },
+    "rating": {
+      "elementType": "number",
+      "value": 4.25
+    },
+    "website": {
+      "elementType": "link",
+      "linkURL": "www.jamieoliver.com"
+    },
+    "openingHours5": {
+      "elementType": "text",
+      "value": "7:30–11am, 11:30am–9:30pm"
+    }
+  }
+}

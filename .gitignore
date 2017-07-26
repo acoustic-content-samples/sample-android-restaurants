@@ -1,4 +1,10 @@
 .DS_Store
+.gradle
+/.idea/workspace.xml
+/.idea/libraries
+/WatsonContentHubRestaurants.iml
+/local.properties
 /build
 /app/build
 /app/docs/exclude
+

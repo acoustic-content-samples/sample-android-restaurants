@@ -1,0 +1,28 @@
+{
+  "id": "12e105b4affe23889575a52ab8f79787",
+  "rev": "6-503a131dac0863ef15b7e434aece6a3d",
+  "name": "Chinese",
+  "classification": "category",
+  "taxonomy": "96ff4a8c19d6a321fa7aa6ee03f0468a",
+  "parent": "96ff4a8c19d6a321fa7aa6ee03f0468a",
+  "ancestorIds": [
+    "96ff4a8c19d6a321fa7aa6ee03f0468a"
+  ],
+  "namePath": [
+    "Cuisine",
+    "Chinese"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/96ff4a8c19d6a321fa7aa6ee03f0468a"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/12e105b4affe23889575a52ab8f79787"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/96ff4a8c19d6a321fa7aa6ee03f0468a"
+    }
+  },
+  "created": "2016-12-19T00:04:35.342Z",
+  "lastModified": "2016-12-19T04:54:44.733Z"
+}

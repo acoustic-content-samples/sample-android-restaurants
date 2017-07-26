@@ -1,0 +1,99 @@
+{
+  "id": "72e7753f-687a-439c-89ed-665f25e674dd",
+  "rev": "14-1729ac3c77b3ca14996cd2e498120e0b",
+  "name": "Bistro Papillon",
+  "description": "",
+  "classification": "content",
+  "typeId": "9310013b-31b0-4705-8bfa-e3c7a70d407b",
+  "locale": "en",
+  "lastModified": "2017-04-18T07:14:47.367Z",
+  "lastModifierId": "c055ead3-19d4-4b8e-b22d-9d0785384b59",
+  "created": "2016-12-19T00:36:38.619Z",
+  "creatorId": "ec04cc13-317f-40ec-a5d7-9ec3d051e891",
+  "tags": [],
+  "status": "draft",
+  "elements": {
+    "summary": {
+      "elementType": "text",
+      "value": "Onion soup, coq au vin and other French dishes in a cosy, romantic space decorated with old posters."
+    },
+    "address": {
+      "elementType": "text",
+      "value": "Clarence St, Sydney NSW 2000"
+    },
+    "openingHours3": {
+      "elementType": "text",
+      "value": "12–3pm, 6–10pm"
+    },
+    "openingHours7": {
+      "elementType": "text",
+      "value": "6–10pm"
+    },
+    "totalRatings": {
+      "elementType": "number",
+      "value": 0
+    },
+    "openingHours1": {
+      "elementType": "text",
+      "value": "Closed"
+    },
+    "website": {
+      "elementType": "link",
+      "linkURL": "www.bistropapillon.com.au"
+    },
+    "openingHours2": {
+      "elementType": "text",
+      "value": "12–3pm, 6–10pm"
+    },
+    "openingHours5": {
+      "elementType": "text",
+      "value": "12–3pm, 6–10pm"
+    },
+    "photo": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "69caab25-59cd-480a-ad4c-f2fe9f5dfbc7",
+          "source": "/authoring/v1/resources/6ad2f34ab3280ee78e26799e358e57aa"
+        },
+        "thumbnail": {
+          "renditionId": "5c4fd447-c2c9-4974-89e1-a2659175a826",
+          "source": "/authoring/v1/resources/6ad2f34ab3280ee78e26799e358e57aa?resize=0.2127659574468085xw:0.2127659574468085xh&crop=150:90;5,0"
+        },
+        "mobile": {
+          "renditionId": "bcb238ce-650a-40cc-b752-78575cc705dd",
+          "source": "/authoring/v1/resources/6ad2f34ab3280ee78e26799e358e57aa?resize=0.5026666666666667xw:0.5026666666666667xh&crop=377:199;0,7"
+        }
+      },
+      "asset": {
+        "id": "9edaab9a-eb64-452c-9b51-1c9ae1cdf18b",
+        "resourceUri": "/authoring/v1/resources/6ad2f34ab3280ee78e26799e358e57aa",
+        "fileName": "fi6das2da6u-daria-nepriakhina.jpg",
+        "fileSize": 56668,
+        "mediaType": "image/jpeg"
+      }
+    },
+    "cuisine": {
+      "elementType": "category",
+      "categoryIds": [
+        "96ff4a8c19d6a321fa7aa6ee03f07039"
+      ]
+    },
+    "openingHours6": {
+      "elementType": "text",
+      "value": "12–3pm, 6–10pm"
+    },
+    "phone": {
+      "elementType": "text",
+      "value": "(02) 9262 2402"
+    },
+    "openingHours4": {
+      "elementType": "text",
+      "value": "12–3pm, 6–10pm"
+    },
+    "rating": {
+      "elementType": "number",
+      "value": 0
+    }
+  }
+}

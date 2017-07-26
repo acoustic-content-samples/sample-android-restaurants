@@ -1,0 +1,122 @@
+{
+  "id": "9310013b-31b0-4705-8bfa-e3c7a70d407b",
+  "rev": "11-ce261be1fc572952c79ce8c3eec62d3d",
+  "name": "Restaurant",
+  "classification": "content-type",
+  "description": "",
+  "creator": "KWAN YIN ANDREW CHAU",
+  "creatorId": "ec04cc13-317f-40ec-a5d7-9ec3d051e891",
+  "created": "2016-12-19T00:15:10.438Z",
+  "lastModifier": "KWAN YIN ANDREW CHAU",
+  "lastModifierId": "ec04cc13-317f-40ec-a5d7-9ec3d051e891",
+  "lastModified": "2016-12-22T03:59:25.206Z",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "key": "summary",
+      "label": "Summary",
+      "elementType": "text",
+      "displayType": "multiLine",
+      "required": true
+    },
+    {
+      "key": "address",
+      "label": "Address",
+      "elementType": "text",
+      "displayType": "singleLine",
+      "required": true
+    },
+    {
+      "key": "phone",
+      "label": "Phone",
+      "elementType": "text",
+      "displayType": "singleLine",
+      "required": true
+    },
+    {
+      "key": "cuisine",
+      "label": "Cuisine",
+      "elementType": "category",
+      "restrictedParents": [
+        "96ff4a8c19d6a321fa7aa6ee03f0468a"
+      ],
+      "required": true
+    },
+    {
+      "key": "website",
+      "label": "Website",
+      "elementType": "link"
+    },
+    {
+      "key": "photo",
+      "label": "Photo",
+      "elementType": "image",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "imageProfileId": "e745039a-3d24-4cbe-8858-3a77cf471ba2"
+    },
+    {
+      "key": "openingHours1",
+      "label": "SUN Opening Hours",
+      "elementType": "text",
+      "displayType": "singleLine"
+    },
+    {
+      "key": "openingHours2",
+      "label": "MON Opening Hours",
+      "elementType": "text",
+      "displayType": "singleLine"
+    },
+    {
+      "key": "openingHours3",
+      "label": "TUE Opening Hours",
+      "elementType": "text",
+      "displayType": "singleLine"
+    },
+    {
+      "key": "openingHours4",
+      "label": "WED Opening Hours",
+      "elementType": "text",
+      "displayType": "singleLine"
+    },
+    {
+      "key": "openingHours5",
+      "label": "THU Opening Hours",
+      "elementType": "text",
+      "displayType": "singleLine"
+    },
+    {
+      "key": "openingHours6",
+      "label": "FRI Opening Hours",
+      "elementType": "text",
+      "displayType": "singleLine"
+    },
+    {
+      "key": "openingHours7",
+      "label": "SAT Opening Hours",
+      "elementType": "text",
+      "displayType": "singleLine"
+    },
+    {
+      "key": "rating",
+      "label": "Rating",
+      "elementType": "number",
+      "fieldType": "decimal",
+      "minimum": 0,
+      "required": true
+    },
+    {
+      "key": "totalRatings",
+      "label": "Total Ratings",
+      "elementType": "number",
+      "fieldType": "integer",
+      "minimum": 0,
+      "required": true
+    }
+  ]
+}

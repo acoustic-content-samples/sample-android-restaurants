@@ -1,0 +1,99 @@
+{
+  "id": "41cdedf5-2d2f-40f1-a8ef-47bd66fe3398",
+  "rev": "34-ce1fcf63440e769a349e2418bb08ce3c",
+  "name": "Shiki Japanese Restaurant",
+  "description": "",
+  "classification": "content",
+  "typeId": "9310013b-31b0-4705-8bfa-e3c7a70d407b",
+  "locale": "en",
+  "lastModified": "2017-04-18T07:07:54.127Z",
+  "lastModifierId": "c055ead3-19d4-4b8e-b22d-9d0785384b59",
+  "created": "2016-12-19T00:25:21.614Z",
+  "creatorId": "ec04cc13-317f-40ec-a5d7-9ec3d051e891",
+  "tags": [],
+  "status": "draft",
+  "elements": {
+    "openingHours3": {
+      "elementType": "text",
+      "value": "5:30–10:30pm"
+    },
+    "address": {
+      "elementType": "text",
+      "value": "35-75 Harrington St, Sydney NSW 2000"
+    },
+    "phone": {
+      "elementType": "text",
+      "value": "(02) 9252 2431"
+    },
+    "openingHours5": {
+      "elementType": "text",
+      "value": "12–3pm, 5:30–10:30pm"
+    },
+    "openingHours4": {
+      "elementType": "text",
+      "value": "12–3pm, 5:30–10:30pm"
+    },
+    "summary": {
+      "elementType": "text",
+      "value": "Sleek dining room offering sushi and sashimi, plus teppanyaki dishes cooked at an open station."
+    },
+    "openingHours2": {
+      "elementType": "text",
+      "value": "5:30–10:30pm"
+    },
+    "openingHours7": {
+      "elementType": "text",
+      "value": "12–3pm, 5:30–11pm"
+    },
+    "openingHours1": {
+      "elementType": "text",
+      "value": "5:30–10:30pm"
+    },
+    "totalRatings": {
+      "elementType": "number",
+      "value": 4
+    },
+    "photo": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "47ec17a0-a0cb-4f9a-8e64-c423baf94b65",
+          "source": "/authoring/v1/resources/7f340775b1aebaceb5daa110ec87b3c1"
+        },
+        "mobile": {
+          "renditionId": "a0ed05c0-77f0-42af-a034-3d9598751a2c",
+          "source": "/authoring/v1/resources/7f340775b1aebaceb5daa110ec87b3c1?resize=0.5026666666666667xw:0.5026666666666667xh&crop=377:199;0,26"
+        },
+        "thumbnail": {
+          "renditionId": "a11524cc-e069-40cc-8829-876bff6d4b88",
+          "source": "/authoring/v1/resources/7f340775b1aebaceb5daa110ec87b3c1?resize=0.2xw:0.2xh&crop=150:90;0,5"
+        }
+      },
+      "asset": {
+        "id": "981f3085-269b-4d62-b1bf-adc8dd270ecd",
+        "resourceUri": "/authoring/v1/resources/7f340775b1aebaceb5daa110ec87b3c1",
+        "fileName": "ra4mwm9_jka-matthew-hamilton.jpg",
+        "fileSize": 82515,
+        "mediaType": "image/jpeg"
+      }
+    },
+    "website": {
+      "elementType": "link",
+      "linkURL": "www.shikijapanese.com.au"
+    },
+    "cuisine": {
+      "elementType": "category",
+      "categoryIds": [
+        "9ac12e4a9feebf19389be11a63f69357"
+      ]
+    },
+    "rating": {
+      "elementType": "number",
+      "value": 4.25
+    },
+    "openingHours6": {
+      "elementType": "text",
+      "value": "12–3pm, 5:30–11pm"
+    }
+  }
+}

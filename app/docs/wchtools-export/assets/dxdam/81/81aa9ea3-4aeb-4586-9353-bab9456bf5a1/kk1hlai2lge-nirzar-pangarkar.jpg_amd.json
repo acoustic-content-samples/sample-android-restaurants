@@ -1,0 +1,65 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "kk1hlai2lge-nirzar-pangarkar.jpg",
+  "path": "/dxdam/81/81aa9ea3-4aeb-4586-9353-bab9456bf5a1/kk1hlai2lge-nirzar-pangarkar.jpg",
+  "digest": "wsHf7y1YxWJ6XV6syZccbg==",
+  "assetType": "image",
+  "lastModified": "2017-04-18T07:14:27.724Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:food",
+      "classification:dish",
+      "classification:pasta",
+      "classification:lasagna",
+      "classification:nutrition",
+      "classification:chocolate color",
+      "classification:cannelloni"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:lasagna",
+      "classification:pasta",
+      "classification:dish",
+      "classification:nutrition",
+      "classification:food",
+      "classification:cannelloni",
+      "classification:chocolate color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "kk1hlai2lge-nirzar-pangarkar.jpg",
+  "creatorId": "c055ead3-19d4-4b8e-b22d-9d0785384b59",
+  "rev": "2-0c53c7f47815a0751d68cdb2e67851ae",
+  "cognitive": {
+    "classifications": [
+      "lasagna",
+      "pasta",
+      "dish",
+      "nutrition",
+      "food",
+      "cannelloni",
+      "chocolate color"
+    ],
+    "faces": [],
+    "status": "complete"
+  },
+  "id": "81aa9ea3-4aeb-4586-9353-bab9456bf5a1",
+  "resource": "0a02bbaffd2f1bcce3895f0f329909c1",
+  "fileSize": 84954,
+  "lastModifierId": "c055ead3-19d4-4b8e-b22d-9d0785384b59",
+  "renditions": {
+    "default": {
+      "id": "28e58a8f-b8c4-49aa-b1e6-c2d893eafd9c",
+      "source": "/authoring/v1/resources/0a02bbaffd2f1bcce3895f0f329909c1"
+    }
+  },
+  "metadata": {
+    "width": 750,
+    "height": 500
+  },
+  "classification": "asset",
+  "created": "2017-04-18T07:14:27.724Z"
+}

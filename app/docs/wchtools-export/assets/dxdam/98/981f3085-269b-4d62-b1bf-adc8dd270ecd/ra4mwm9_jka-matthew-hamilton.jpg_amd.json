@@ -1,0 +1,92 @@
+{
+  "mediaType": "image/jpeg",
+  "name": "ra4mwm9_jka-matthew-hamilton.jpg",
+  "path": "/dxdam/98/981f3085-269b-4d62-b1bf-adc8dd270ecd/ra4mwm9_jka-matthew-hamilton.jpg",
+  "digest": "W/333ikl1Niabjh0FZX1ew==",
+  "assetType": "image",
+  "lastModified": "2017-04-18T07:07:47.908Z",
+  "description": "",
+  "tags": {
+    "values": [
+      "classification:pale yellow color",
+      "classification:food",
+      "classification:consomme",
+      "classification:dish",
+      "classification:side dish",
+      "classification:soup",
+      "classification:stew",
+      "classification:mulled wine",
+      "classification:nutrition",
+      "classification:soupspoon",
+      "classification:sukiyaki",
+      "classification:Irish stew",
+      "classification:chocolate color",
+      "classification:wine",
+      "classification:beverage",
+      "classification:spoon"
+    ],
+    "declined": [],
+    "analysis": "complete",
+    "suggested": [
+      "classification:soupspoon",
+      "classification:spoon",
+      "classification:side dish",
+      "classification:dish",
+      "classification:nutrition",
+      "classification:food",
+      "classification:sukiyaki",
+      "classification:mulled wine",
+      "classification:wine",
+      "classification:beverage",
+      "classification:Irish stew",
+      "classification:stew",
+      "classification:consomme",
+      "classification:soup",
+      "classification:chocolate color",
+      "classification:pale yellow color"
+    ]
+  },
+  "altText": "",
+  "categoryIds": [],
+  "fileName": "ra4mwm9_jka-matthew-hamilton.jpg",
+  "creatorId": "c055ead3-19d4-4b8e-b22d-9d0785384b59",
+  "rev": "2-ca5dd4015fd36c5b4b05a5578369620d",
+  "cognitive": {
+    "classifications": [
+      "soupspoon",
+      "spoon",
+      "side dish",
+      "dish",
+      "nutrition",
+      "food",
+      "sukiyaki",
+      "mulled wine",
+      "wine",
+      "beverage",
+      "Irish stew",
+      "stew",
+      "consomme",
+      "soup",
+      "chocolate color",
+      "pale yellow color"
+    ],
+    "faces": [],
+    "status": "complete"
+  },
+  "id": "981f3085-269b-4d62-b1bf-adc8dd270ecd",
+  "resource": "7f340775b1aebaceb5daa110ec87b3c1",
+  "fileSize": 82515,
+  "lastModifierId": "c055ead3-19d4-4b8e-b22d-9d0785384b59",
+  "renditions": {
+    "default": {
+      "id": "47ec17a0-a0cb-4f9a-8e64-c423baf94b65",
+      "source": "/authoring/v1/resources/7f340775b1aebaceb5daa110ec87b3c1"
+    }
+  },
+  "metadata": {
+    "width": 750,
+    "height": 500
+  },
+  "classification": "asset",
+  "created": "2017-04-18T07:07:47.908Z"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "47c48e0d-3c65-4f60-9d15-5a7d620de81e",
+  "rev": "15-1be107497db8f39b4775cd884aaf675b",
+  "name": "Olio",
+  "description": "",
+  "classification": "content",
+  "typeId": "9310013b-31b0-4705-8bfa-e3c7a70d407b",
+  "locale": "en",
+  "lastModified": "2017-04-18T07:08:34.990Z",
+  "lastModifierId": "c055ead3-19d4-4b8e-b22d-9d0785384b59",
+  "created": "2016-12-19T01:29:26.648Z",
+  "creatorId": "ec04cc13-317f-40ec-a5d7-9ec3d051e891",
+  "tags": [],
+  "status": "draft",
+  "elements": {
+    "phone": {
+      "elementType": "text",
+      "value": "(02) 9252 2431"
+    },
+    "totalRatings": {
+      "elementType": "number",
+      "value": 0
+    },
+    "openingHours7": {
+      "elementType": "text",
+      "value": "Closed"
+    },
+    "openingHours5": {
+      "elementType": "text",
+      "value": "7am–9pm"
+    },
+    "openingHours1": {
+      "elementType": "text",
+      "value": "Closed"
+    },
+    "summary": {
+      "elementType": "text",
+      "value": "Classy Mediterranean dining room with a relaxed vibe, offering coffee, share plates and a wine bar."
+    },
+    "photo": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "e9c4e28e-43a1-4fb0-b483-c829d09ac745",
+          "source": "/authoring/v1/resources/771d5779261fb2777373c9e56b980e17"
+        },
+        "mobile": {
+          "renditionId": "f22aea2b-c735-46c9-902c-55a276ff37f2",
+          "source": "/authoring/v1/resources/771d5779261fb2777373c9e56b980e17?resize=0.5026666666666667xw:0.5026666666666667xh&crop=377:199;0,26"
+        },
+        "thumbnail": {
+          "renditionId": "d57f4694-0c9f-4ecf-abba-8a7d1fb75720",
+          "source": "/authoring/v1/resources/771d5779261fb2777373c9e56b980e17?resize=0.2xw:0.2xh&crop=150:90;0,5"
+        }
+      },
+      "asset": {
+        "id": "25a826d0-3d6d-4e61-b9e3-c17c5780ad1b",
+        "resourceUri": "/authoring/v1/resources/771d5779261fb2777373c9e56b980e17",
+        "fileName": "45m01-tuijy-pawel-rekas.jpg",
+        "fileSize": 130265,
+        "mediaType": "image/jpeg"
+      }
+    },
+    "openingHours6": {
+      "elementType": "text",
+      "value": "7am–9pm"
+    },
+    "website": {
+      "elementType": "link",
+      "linkURL": "www.olio.com.au"
+    },
+    "cuisine": {
+      "elementType": "category",
+      "categoryIds": [
+        "31f2905ea363895436c56fa6acf6bc7d"
+      ]
+    },
+    "openingHours4": {
+      "elementType": "text",
+      "value": "7am–9pm"
+    },
+    "openingHours2": {
+      "elementType": "text",
+      "value": "7am–4pm"
+    },
+    "openingHours3": {
+      "elementType": "text",
+      "value": "7am–4pm"
+    },
+    "rating": {
+      "elementType": "number",
+      "value": 0
+    },
+    "address": {
+      "elementType": "text",
+      "value": "201-205 Pacific Hwy, St Leonards NSW 2065"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 # sample-android-restaurants
-This sample native Android app demonstrates how IBM Watson Content Hub APIs can be used to allow a user to search for restaurants that have been added through the Content Hub user interface.
+This sample native Android app demonstrates how Acoustic Content (formerly Watson Content Hub or WCH) APIs can be used to allow a user to search for restaurants that have been added through the Acoustic Content user interface.
 
 Note that this sample uses WCH authoring APIs to search for and retrieve content and images. WCH also has delivery content and search APIs that would typically be used for a retrieval scenario such as this mobile app. The delivery APIs are very similar to the authoring APIs but are simpler to use since they don't require authentication.
 

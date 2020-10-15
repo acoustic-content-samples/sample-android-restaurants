@@ -26,7 +26,7 @@ public final class WchConfig {
     public static final String CUISINE_TAXONOMY_ID = "[ENTER ID OF CUISINE TAXONOMY]";
 
     public static final String API_VERSION = "v1";
-    public static final String LOGIN_URL = "https://my.digitalexperience.ibm.com/api/login/" +
+    public static final String LOGIN_URL = "https://content-us-1.content-cms.com/api/login/" +
             API_VERSION + "/basicauth";
 
     public static final String RESTAURANT_CONTENT_TYPE_NAME = "restaurant";
